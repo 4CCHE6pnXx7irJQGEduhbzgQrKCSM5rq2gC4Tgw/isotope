@@ -1,0 +1,28 @@
+title: Isotope
+description: "isotope"
+baseurl: "/isotope" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+markdown: kramdown
+permalink: pretty
+
+# Sass settings
+sass:
+  sass_dir: _sass
+  style: compressed
+
+kramdown:
+  smart_quotes: ["lsquo", "rsquo", "ldquo", "rdquo"]
+  input: GFM
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
